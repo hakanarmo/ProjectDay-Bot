@@ -25,9 +25,9 @@ let EmbedColor = 0x24ceff; // Embed Color
 // When bot has logged into discord do this.
 bot.on("ready", async() =>{
     console.log(`\n${bot.user.username} is now online!\nConnected to : ${bot.guilds.size} discord(s) servers.`)
-
     bot.guilds.forEach(guild =>{
-        console.log(`Server Name : ${guild.name} | Server ID : ${guild.id} | Member Count : ${guild.memberCount}`);
+
+        console.log(`Server Name : ${guild.name} | Server ID : ${guild.id} | Member Count : ${guild.memberCount} | Created : ${guild.createdAt}`);
     })
 
     bot.user.setActivity(Activity);
