@@ -1,0 +1,15 @@
+{
+  "name": "statewiderp-bot",
+  "version": "1.0.0",
+  "description": "This bot is used inside StatewideRP (FiveM) Roleplay Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ScouseMouse",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.5.0"
+  }
+}
